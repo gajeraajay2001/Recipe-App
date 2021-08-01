@@ -1,0 +1,180 @@
+name: recipe_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.19.3
+  url_launcher: ^5.7.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/icons/menu.svg
+    - asset/icons/search.svg
+    - asset/icons/home.svg
+    - asset/icons/list.svg
+    - asset/icons/camera.svg
+    - asset/icons/chef_nav.svg
+    - asset/icons/chef_color.svg
+    - asset/icons/user.svg
+    - asset/icons/pot.svg
+    - asset/icons/back.svg
+    - asset/icons/bookmark.svg
+    - asset/icons/bookmark_fill.svg
+    - asset/icons/info.svg
+    - asset/icons/language.svg
+
+
+
+    - asset/images/logo.png
+    - asset/images/cook_new.png
+    - asset/images/cook_new@2x.png
+    - asset/images/best_2020.png
+    - asset/images/best_new2020.png
+    - asset/images/food_courtnew.png
+    - asset/images/indian1.jpg
+    - asset/images/indian2.jpg
+    - asset/images/indian3.png
+    - asset/images/indian4.jpg
+    - asset/images/indian5.jpg
+    - asset/images/indian6.jpg
+    - asset/images/indian7.jpg
+    - asset/images/indian8.png
+    - asset/images/indian9.jpg
+    - asset/images/indian9.png
+    - asset/images/indian10.jpg
+    - asset/images/indian11.png
+    - asset/images/indian12.png
+    - asset/images/indian13.jpg
+    - asset/images/indian14.jpg
+    - asset/images/indian14.png
+    - asset/images/indian15.jpg
+    - asset/images/indian16.png
+    - asset/images/indian17.png
+    - asset/images/italian2.png
+    - asset/images/italian3.png
+    - asset/images/italian4.png
+    - asset/images/italian5.png
+    - asset/images/italian6.png
+    - asset/images/italian7.png
+    - asset/images/italian8.png
+    - asset/images/italian9.png
+    - asset/images/italian10.png
+    - asset/images/italian11.png
+    - asset/images/italian12.png
+    - asset/images/italian13.png
+    - asset/images/italian14.png
+    - asset/images/italian16.png
+    - asset/images/italian17.png
+    - asset/images/italian18.png
+    - asset/images/mexican1.jpg
+    - asset/images/mexican2.jpg
+    - asset/images/mexican3.jpg
+    - asset/images/mexican4.jpg
+    - asset/images/mexican5.jpg
+    - asset/images/mexican6.jpg
+    - asset/images/mexican7.jpg
+    - asset/images/mexican8.jpg
+    - asset/images/mexican9.gif
+    - asset/images/mexican10.jpg
+    - asset/images/mexican11.jpg
+    - asset/images/mexican12.jpg
+    - asset/images/mexican13.jpg
+    - asset/images/mexican14.jpg
+    - asset/images/mexican15.jpg
+    - asset/images/mexican16.jpg
+    - asset/images/mexican17.jpg
+    - asset/images/chinese1.jpg
+    - asset/images/chinese2.jpg
+    - asset/images/chinese3.jpg
+    - asset/images/chinese4.jpg
+    - asset/images/chinese5.jpg
+    - asset/images/chinese6.jpg
+    - asset/images/chinese7.jpg
+    - asset/images/chinese8.jpg
+    - asset/images/chinese9.jpg
+    - asset/images/chinese10.jpg
+    - asset/images/chinese11.jpg
+    - asset/images/chinese12.jpg
+    - asset/images/court1.jpg
+    - asset/images/court2.jpg
+    - asset/images/court3.jpg
+    - asset/images/court4.jpg
+    - asset/images/court5.jpg
+    - asset/images/veg.png
+    - asset/images/youtube.png
+    - asset/images/chef_2.png
+    - asset/images/chef.jpeg
+    - asset/images/background.png
+    - asset/images/welcome.png
+    - asset/images/done.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: menu
+      fonts:
+        - asset: asset/fonts/menu1.ttf
+    - family: name
+      fonts:
+        - asset: asset/fonts/name.ttf
+#        - asset: fonts/Schyler-Italic.ttf
+#          style: italic
+##    - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
